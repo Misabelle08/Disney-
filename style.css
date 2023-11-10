@@ -1,0 +1,133 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("gif1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(19, 3, 48);
+  background-attachment: fixed;
+}
+
+.logo {
+  flex: 20%;
+  text-align: center;
+}
+
+.logo h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.menu {
+  flex: 70%;
+  text-align: right;
+  padding: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 16px;
+}
+
+.menu a:hover {
+  color: rgb(47, 66, 231);
+  border: 1px solid rgb(65, 19, 231);
+}
+
+#botao {
+  color: white;
+  border-radius: 5px;
+  padding: 10px 25px;
+  background: rgba(5, 26, 216, 0.432);
+}
+
+#botao:hover {
+  border: none;
+  background: rgb(59, 73, 236);
+  color: white
+}
+
+.principal {
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+}
+
+.img {
+  margin-left: 10%;
+  flex: 40%;
+  margin-top: 10%;
+}
+
+p {
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin-right: 200px;
+  width: 400px;
+}
+
+.card {
+  margin-top: 10px;
+  color: rgb(246, 183, 128);
+}
+
+span {
+  color: aliceblue;
+}
+
+.gif {
+  margin-left: 40%;
+}
+
+.trailer {
+  margin-top: 20%;
+  overflow: auto;
+  /* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
+  margin-left: 2%;
+}
+
+.rodape {
+  background-image: linear-gradient(#040414, black);
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+.informacoes {
+  padding: 12px 0px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.disney {
+  text-align: center;
+  color: white;
+}

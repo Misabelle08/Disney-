@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(rgba(5, 26, 216, 0.432) ,rgb(19, 3, 48),#040414, black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(19, 3, 48);
+    background-attachment: fixed;
+  }
+  
+.logo {
+    flex: 20%;
+    text-align: center;
+  }
+  
+.logo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+  }
+  
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+  }
+  
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+  }
+  
+.menu a:hover {
+    color: rgb(47, 66, 231);
+    border: 1px solid rgb(65, 19, 231);
+  }
+  
+#botao {
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background: rgba(5, 26, 216, 0.432);
+  }
+  
+#botao:hover {
+    border: none;
+    background: rgb(59, 73, 236);
+    color: white
+  }
+.disney{
+    overflow: auto;
+    /* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
+    align-items: start;
+    justify-content: center;
+    padding: 40px;
+    width: fit-content;
+    height: fit-content;
+    background-image: linear-gradient(rgba(5, 26, 216, 0.432) ,rgb(19, 3, 48),#040414, black);
+    border-radius: 20px;
+    margin-left: 36%;
+    margin-top: 5%;
+    flex-direction: row;
+  }
+.disney input{
+    padding: 18px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+.disney label{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: aliceblue;
+  }
+h1{
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+  
+.rodape {
+    background-image: linear-gradient(#040414, black);
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+  }
+.text{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+span{
+  color: white;
+}
